@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project Aethera</string>
+    <string name="splash_logo_desc">Aethera logo</string>
+    <string name="auth_brand_name">Aethera</string>
+    <string name="auth_motto">Connect to the moment</string>
+    <string name="auth_motto_sub">Share life with people you love</string>
+    <string name="auth_login_icon">Log in</string>
+    <string name="auth_register_icon">Sign up</string>
+    <string name="auth_login_title">Log in</string>
+    <string name="auth_login_header">login</string>
+    <string name="auth_login_subtitle">Welcome back</string>
+    <string name="auth_register_title">Sign up</string>
+    <string name="auth_register_header">SignUp</string>
+    <string name="auth_register_subtitle">Join &amp; connect</string>
+    <string name="auth_switch_signup">Sign up</string>
+    <string name="auth_switch_login">Log in</string>
+    <string name="auth_no_account_prompt">New here?</string>
+    <string name="auth_have_account_prompt">Have an account?</string>
+    <string name="auth_hint_email">Email</string>
+    <string name="auth_hint_password">Password</string>
+    <string name="auth_hint_username">Username</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_forgot_header">reset</string>
+    <string name="auth_forgot_subtitle">Enter your email to get a code</string>
+    <string name="auth_forgot_hint_code">Verification code</string>
+    <string name="auth_forgot_hint_new_password">New password</string>
+    <string name="auth_forgot_hint_confirm_password">Confirm password</string>
+    <string name="auth_forgot_confirm">Continue</string>
+    <string name="auth_back_to_login">Back to log in</string>
+    <string name="auth_toggle_password">Show or hide password</string>
+    <string name="auth_terms_agree">I agree to Terms and Conditions</string>
+    <string name="home_notifications">Notifications</string>
+    <string name="notifications_empty">No notifications yet</string>
+    <string name="back">Back</string>
+    <string name="profile_no_posts">No posts yet, Share something</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_search_hint">Search settings</string>
+    <string name="settings_account_center">Accounts Center</string>
+    <string name="settings_account_subtitle">Password, security, personal details</string>
+    <string name="settings_see_profile">See your profile</string>
+
+    <string name="settings_section_how_you_use">How you use Aethera</string>
+    <string name="settings_section_who_can_see">Who can see your content</string>
+    <string name="settings_section_how_others">How others can interact with you</string>
+    <string name="settings_section_what_you_see">What you see</string>
+    <string name="settings_section_more">More info and support</string>
+
+    <string name="settings_edit_profile">Edit profile</string>
+    <string name="settings_edit_profile_sub">Change photo, name, bio</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_sub">Likes, comments, follows</string>
+    <string name="settings_privacy">Account privacy</string>
+    <string name="settings_privacy_sub">Private account, visibility</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_sub">Theme and display</string>
+    <string name="settings_security">Password and security</string>
+    <string name="settings_security_sub">Change password, login</string>
+    <string name="settings_about">About Aethera</string>
+    <string name="settings_about_sub">Version and info</string>
+    <string name="settings_help">Help</string>
+    <string name="settings_help_sub">Support and feedback</string>
+    <string name="settings_logout">Log out</string>
+
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_privacy_title">Account privacy</string>
+    <string name="settings_about_title">About</string>
+
+    <string name="settings_push">Push notifications</string>
+    <string name="settings_push_sub">Alerts on this device</string>
+    <string name="settings_notify_likes">Likes</string>
+    <string name="settings_notify_likes_sub">When someone likes your post</string>
+    <string name="settings_notify_comments">Comments</string>
+    <string name="settings_notify_comments_sub">When someone comments on your post</string>
+    <string name="settings_notify_follows">New followers</string>
+    <string name="settings_notify_follows_sub">When someone follows you</string>
+
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_dark_mode_sub">Use dark theme across the app</string>
+
+    <string name="settings_privacy_coming">Private account and blocking will be available in a future update.</string>
+    <string name="settings_about_body">Aethera\nConnect to the moment\n\nVersion 1.0</string>
+    <string name="settings_help_toast">Help center coming soon</string>
+    <string name="settings_logout_confirm">Are you sure you want to log out?</string>
+    <string name="settings_open">Settings</string>
+
+    <string name="delete_post">Delete post</string>
+    <string name="delete">Delete</string>
+    <string name="delete_post_confirm">Delete this post? This can\'t be undone.</string>
+    <string name="delete_post_success">Post deleted</string>
+    <string name="delete_post_failed">Could not delete post</string>
+
+    <string name="status_add">Add status</string>
+    <string name="status_share">Share</string>
+    <string name="status_caption_hint">Add a caption (optional)</string>
+    <string name="status_posted">Status posted</string>
+
+    <string name="post_new">New post</string>
+    <string name="post_share">Share</string>
+    <string name="post_next">Next</string>
+    <string name="post_gallery_title">Select photos</string>
+    <string name="post_gallery_hint">Tap a photo · Hold to select multiple</string>
+    <string name="post_gallery_selected">%1$d selected</string>
+    <string name="post_preview_title">Preview</string>
+    <string name="post_preview_page">%1$d / %2$d</string>
+    <string name="post_caption_hint">Write a caption…</string>
+    <string name="post_photos_count">%1$d photos</string>
+    <string name="post_sharing">Sharing your post…</string>
+    <string name="post_select_image">Select at least one photo</string>
+    <string name="status_none">No status available</string>
+    <string name="status_like">Like status</string>
+    <string name="status_delete_title">Delete status</string>
+    <string name="status_delete_message">Remove this status?</string>
+    <string name="status_deleted">Status deleted</string>
+
+    <string name="search_hint">Search</string>
+    <string name="search_cancel">Cancel</string>
+
+    <string name="comments">Comments</string>
+    <string name="comments_empty">No comments yet. Be the first to comment.</string>
+    <string name="add_a_comment">Add a comment…</string>
+    <string name="replying_to">Replying to @%1$s</string>
+    <string name="post">Post</string>
+    <string name="reply">Reply</string>
+    <string name="follow">Follow</string>
+    <string name="more_options">More options</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="change_profile_picture">Change profile picture</string>
+    <string name="upload_profile_photo">Upload photo</string>
+    <string name="save_changes">Save changes</string>
+    <string name="username_change_note">Username can be changed once every 14 days.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_logout_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:minHeight="52dp"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="14dp"
+    android:text="@string/settings_logout"
+    android:textColor="@color/settings_logout_red"
+    android:textSize="16sp"
+    android:textStyle="bold" />

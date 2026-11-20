@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simplified static vector inspired by register_animation_2 (Sign up cards) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Yellow card (back right) -->
+    <group
+        android:translateX="62"
+        android:translateY="38"
+        android:rotation="8">
+        <path
+            android:fillColor="#F9E076"
+            android:pathData="M8,4h44a6,6 0,0 1,6 6v58a6,6 0,0 1,-6 6H8a6,6 0,0 1,-6 -6V10a6,6 0,0 1,6 -6z"
+            android:strokeColor="#2C2C2C"
+            android:strokeWidth="1.2" />
+        <path
+            android:fillColor="#E8C547"
+            android:pathData="M14,18m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+        <path
+            android:fillColor="#D4A017"
+            android:pathData="M22,16h24v4H22z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M14,30h36v3H14zM14,38h30v3H14zM14,46h34v3H14z" />
+    </group>
+
+    <!-- Blue card (back left) -->
+    <group
+        android:translateX="14"
+        android:translateY="38"
+        android:rotation="-8">
+        <path
+            android:fillColor="#8EC5FC"
+            android:pathData="M8,4h44a6,6 0,0 1,6 6v58a6,6 0,0 1,-6 6H8a6,6 0,0 1,-6 -6V10a6,6 0,0 1,6 -6z"
+            android:strokeColor="#2C2C2C"
+            android:strokeWidth="1.2" />
+        <path
+            android:fillColor="#5BA3E8"
+            android:pathData="M14,18m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+        <path
+            android:fillColor="#3D8BD8"
+            android:pathData="M22,16h24v4H22z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M14,30h36v3H14zM14,38h30v3H14zM14,46h34v3H14z" />
+    </group>
+
+    <!-- Pink/red card (front center) -->
+    <group
+        android:translateX="34"
+        android:translateY="24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M8,4h44a6,6 0,0 1,6 6v58a6,6 0,0 1,-6 6H8a6,6 0,0 1,-6 -6V10a6,6 0,0 1,6 -6z"
+            android:strokeColor="#2C2C2C"
+            android:strokeWidth="1.5" />
+        <path
+            android:fillColor="#FFD6E0"
+            android:pathData="M8,4h44a6,6 0,0 1,6 6v14H8a6,6 0,0 1,-6 -6V10a6,6 0,0 1,6 -6z" />
+        <path
+            android:fillColor="#F48FB1"
+            android:pathData="M30,8m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0"
+            android:strokeColor="#2C2C2C"
+            android:strokeWidth="1.2" />
+        <path
+            android:fillColor="#E53935"
+            android:pathData="M14,28m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+        <path
+            android:fillColor="#E53935"
+            android:pathData="M22,26h24v4H22z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M14,38h36v3H14zM14,46h30v3H14zM14,54h34v3H14z" />
+    </group>
+</vector>

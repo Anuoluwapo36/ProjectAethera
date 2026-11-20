@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/black">
+
+
+
+    <ImageView
+
+        android:id="@+id/status_preview_image"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:scaleType="centerCrop" />
+
+
+
+    <ImageView
+
+        android:id="@+id/status_preview_back"
+
+        android:layout_width="40dp"
+
+        android:layout_height="40dp"
+
+        android:layout_margin="16dp"
+
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+        android:contentDescription="@string/back"
+
+        android:padding="8dp"
+
+        android:src="@drawable/x_solid_full"
+
+        android:tint="@color/white" />
+
+
+
+    <EditText
+
+        android:id="@+id/status_caption_input"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom"
+
+        android:layout_margin="16dp"
+
+        android:background="@drawable/status_caption_bg"
+
+        android:hint="@string/status_caption_hint"
+
+        android:padding="12dp"
+
+        android:textColor="@color/white"
+
+        android:textColorHint="#CCFFFFFF"
+
+        android:textSize="14sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/status_share_btn"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="top|end"
+
+        android:layout_margin="16dp"
+
+        android:background="@drawable/button_post"
+
+        android:paddingHorizontal="20dp"
+
+        android:paddingVertical="10dp"
+
+        android:text="@string/status_share"
+
+        android:textColor="@color/white"
+
+        android:textSize="14sp" />
+
+
+
+</FrameLayout>
+

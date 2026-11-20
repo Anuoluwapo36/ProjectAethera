@@ -1,0 +1,32 @@
+# Keep text files consistent across Windows, macOS, and Linux checkouts.
+* text=auto eol=lf
+
+*.java text eol=lf
+*.kt text eol=lf
+*.xml text eol=lf
+*.kts text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+
+# Windows scripts must keep CRLF to run.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+
+# Binary assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ttf binary
+*.otf binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary

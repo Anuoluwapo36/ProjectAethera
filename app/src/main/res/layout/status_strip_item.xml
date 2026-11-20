@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="4dp"
+    android:paddingVertical="8dp">
+
+    <FrameLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp">
+
+        <com.example.projectaethera.ui.widgets.ProfileCircleWidgets
+            android:id="@+id/status_avatar"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/status_add_badge"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="bottom|end"
+            android:background="@drawable/status_add_badge_bg"
+            android:contentDescription="@string/status_add"
+            android:padding="4dp"
+            android:src="@drawable/plus_solid_full"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/status_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/midnight_black"
+        android:textSize="11sp" />
+
+</LinearLayout>

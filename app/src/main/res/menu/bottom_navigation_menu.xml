@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/nav_home"
+        android:title="home"
+        android:icon="@drawable/house_solid_full"/>
+
+    <item android:id="@+id/nav_search"
+        android:title="search"
+        android:icon="@drawable/search"/>
+
+
+    <item android:id="@+id/nav_add_post"
+        android:title="post"
+        android:icon="@drawable/plus_solid_full"/>
+
+    <item android:id="@+id/nav_profile"
+        android:title="profile"
+        android:icon="@drawable/user_solid_full"/>
+
+</menu>

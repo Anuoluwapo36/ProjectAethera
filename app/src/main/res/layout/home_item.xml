@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_background"
+    android:paddingBottom="40dp"
+ >
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp">
+
+        <com.example.projectaethera.ui.widgets.ProfileCircleWidgets
+            android:id="@+id/imageProfile"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:padding="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:id="@+id/topBarActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/follow_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/follow_user_btn"
+                android:minWidth="88dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Follow"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:elevation="0dp"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@null"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/optionBar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ellipsis_solid_full"
+                android:clickable="true"
+                android:contentDescription="@string/delete_post"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/imageProfile"
+            android:layout_toStartOf="@id/topBarActions"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins_regular"
+            android:text="username"
+            android:textColor="@color/app_text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/post_media_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager_post_images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:overScrollMode="never" />
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            app:shimmer_base_color="@color/app_shimmer_base"
+            app:shimmer_duration="900"
+            app:shimmer_highlight_color="@color/app_shimmer_highlight">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_shimmer_base" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/dots_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_media_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-28dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/reactionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_media_container"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/heart_regular_full" />
+
+        <TextView
+            android:id="@+id/likeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/like"
+            android:text="0"
+            android:textColor="@color/app_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="24dp"
+            android:layout_toEndOf="@id/likeCount"
+            android:background="@drawable/comment_regular_full" />
+
+        <TextView
+            android:id="@+id/commentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/comment"
+            android:text="0"
+            android:textColor="@color/app_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reactionId"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="4dp"
+        android:text="username"
+        android:fontFamily="@font/poppins_regular"
+
+        android:textColor="@color/app_text_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="4dp"
+        android:paddingEnd="16dp"
+        android:text="caption"
+        android:textColor="@color/app_text_secondary"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caption"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:text="2h ago"
+        android:textAllCaps="false"
+        android:textColor="@color/app_text_muted"
+        android:textSize="11sp" />
+
+
+
+</RelativeLayout>
