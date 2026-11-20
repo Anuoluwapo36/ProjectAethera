@@ -6,6 +6,7 @@ A native Android client for Aethera, a mobile social network for sharing photos.
 ![Target SDK](https://img.shields.io/badge/target%20SDK-36-3DDC84)
 ![Java](https://img.shields.io/badge/Java-11-ED8B00)
 ![Gradle](https://img.shields.io/badge/Gradle-8.13-02303A)
+![Build](https://github.com/Anuoluwapo36/ProjectAethera/actions/workflows/android.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Overview
